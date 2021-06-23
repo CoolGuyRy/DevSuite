@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ResourceManager">
+      <UniqueIdentifier>{4a59991d-9d22-4b12-b4c2-01d2f54b2fbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AnimationManager">
+      <UniqueIdentifier>{edf86e31-b3c0-46e2-8926-482792738c9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LevelEditor">
+      <UniqueIdentifier>{595eb437-0140-4529-ad21-ef3b878d41a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{7d6d799f-22eb-4643-b339-367a267c2af8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CollisionManager">
+      <UniqueIdentifier>{84bed20e-3ce5-47e8-90da-4473a07696c0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Source Files\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelEditor.cpp">
+      <Filter>Source Files\LevelEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationManager.cpp">
+      <Filter>Source Files\AnimationManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>Source Files\CollisionManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Source Files\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelEditor.h">
+      <Filter>Source Files\LevelEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationManager.h">
+      <Filter>Source Files\AnimationManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>Source Files\CollisionManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

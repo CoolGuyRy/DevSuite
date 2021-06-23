@@ -1,0 +1,9 @@
+Data/tiles.png			tiles			TEXTURE
+Data/animated_tiles.png		aTiles			TEXTURE
+Data/objects.png		objects			TEXTURE
+Data/animated_objects.png	aObjects		TEXTURE
+Data/CastleAtlas.png		aCharacter		TEXTURE
+Data/Selector.png		selector		TEXTURE
+Data/tool.png			tool			TEXTURE
+Data/Aftermath.wav		Aftermath		SONG
+Data/DruidCity.wav		DruidCity		SONG
