@@ -171,3 +171,11 @@ void HashTable::DebugInfo() {
 int HashTable::ComputeHash(sf::Vector2f v) {
 	return (static_cast<int>(v.x) % 1280) / 320 + (static_cast<int>(v.y) % 960) / 240 * 4;
 }
+
+CollisionManager::CollisionManager(World* w) : mWorld(w) {
+	mHashTable = new HashTable(DIV_X * DIV_Y);
+}
+
+void CollisionManager::Update() {
+
+}

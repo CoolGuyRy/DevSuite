@@ -32,11 +32,12 @@ private:
 
 class CollisionManager {
 public:
-	CollisionManager();
+	CollisionManager(World*);
 
 	void Update();
 private:
 	World* mWorld;
+	HashTable* mHashTable;
 };
 
 #endif

@@ -11,6 +11,16 @@
 
 using namespace std;
 
+class Entity {
+public:
+	Entity();
+
+	void Update();
+	void Render();
+private:
+	sf::Sprite mSprite;
+};
+
 class Game {
 public:
 	Game(string);
