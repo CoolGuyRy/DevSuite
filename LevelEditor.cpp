@@ -17,6 +17,8 @@ LevelEditor::LevelEditor(string levelname) : eTransparent(false), eDrawWall(true
 	eWindow.setVerticalSyncEnabled(true);
 	eWindow.setFramerateLimit(165);
 
+	eWindow.requestFocus();
+
 	mView = eWindow.getDefaultView();
 
 	mSheetSprite.setTexture(mResourceManager->getTexture(mSheets.at(mCurrentSheet)));
@@ -522,6 +524,8 @@ void LevelEditor::Update() {
 		mSelector.currentPos.y = ceil((sf::Mouse::getPosition(tWindow).y - mSelector.startPos.y) / 16) * 16;
 		mSelector.spr.setSize(mSelector.currentPos);
 	}
+
+	// Update Animations
 	mAnimationManager->Update();
 }
 void LevelEditor::Render() {
