@@ -1,5 +1,15 @@
 #include "Game.h"
 
+Entity::Entity(sf::RenderWindow* w, sf::Texture& t) :mWindow(w) {
+	mSprite.setTexture(t);
+}
+void Entity::Update() {
+
+}
+void Entity::Render() {
+	mWindow->draw(mSprite);
+}
+
 Game::Game(string s) {
 	mResourceManager = new ResourceManager("Data/resources.rsc");
 	mAnimationManager = new AnimationManager(&mWorld);

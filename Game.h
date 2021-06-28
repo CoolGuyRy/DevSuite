@@ -13,12 +13,15 @@ using namespace std;
 
 class Entity {
 public:
-	Entity();
+	Entity(sf::RenderWindow*, sf::Texture&);
 
-	void Update();
+	virtual void Update() = 0;
 	void Render();
+
+	sf::Sprite& GetSprite() { return mSprite; }
 private:
 	sf::Sprite mSprite;
+	sf::RenderWindow* mWindow;
 };
 
 class Game {
